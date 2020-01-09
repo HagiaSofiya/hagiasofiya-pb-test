@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'pb-test'
+import ColoredHeadingOne from 'pb-test'
 
 export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
+	render () {
+		return (
+			<div>
+				<ColoredHeadingOne
+					text="Colored Heading"
+					color={"red"}
+				/>
+			</div>
+		)
+	}
 }
