@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+import styles from './styles.css'
 
 
-export default class ColoredHeadingOne extends Component {
+export class ColoredHeadingOne extends Component {
 	static propTypes = {
 		text: PropTypes.string,
 		color: PropTypes.string
@@ -14,6 +15,22 @@ export default class ColoredHeadingOne extends Component {
 
 		return (
 			<h1 style={{ color }}>{text}</h1>
+		)
+	}
+}
+
+
+
+export class Button extends Component {
+	static propTypes = {
+		text: PropTypes.string,
+	}
+
+	render() {
+		const { text } = this.props
+
+		return (
+			<button>{text}</button>
 		)
 	}
 }

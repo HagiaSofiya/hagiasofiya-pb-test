@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
-import ColoredHeadingOne from 'pb-test'
+import {ColoredHeadingOne , Button } from 'pb-test'
+
 
 export default class App extends Component {
 	render () {
@@ -9,6 +10,9 @@ export default class App extends Component {
 				<ColoredHeadingOne
 					text="Colored Heading"
 					color={"red"}
+				/>
+				<Button
+					text="I am Button"
 				/>
 			</div>
 		)
