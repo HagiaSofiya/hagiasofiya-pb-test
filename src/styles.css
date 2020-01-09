@@ -1,12 +1,5 @@
 /* add css styles here (optional) */
 
-.test {
-		display: inline-block;
-		margin: 2em auto;
-		border: 2px solid #000;
-		font-size: 2em;
-}
-
 button {
 	background: #F4F5F0;
 	border-color: #2D2926;
@@ -34,11 +27,11 @@ button:disabled:hover {
 button:focus {
 	outline: 0;
 }
-.codecopy {
+.codeCopy {
 	display: block;
 	padding: 9px 16px;
 }
-.faucet-request {
+.faucetRequest {
 	padding: 12px 48px;
 }
 .link {
